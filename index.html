@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victor Alonso</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <!-- BOOTSTRAP 4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         
+    <link rel="icon" type="image/vnd.microsoft.icon" href="public/img/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/estilos/estilos.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
-<script src="https://unpkg.com/scrollreveal"></script>
 <style>
 body {
     position: relative;
@@ -543,7 +545,7 @@ body {
              <h3>Víctor Alonso</h3>
              <div class="datos">
                 <a href="mailto:dj_alonso@live.com">Correo: dj_alonso@live.com</a>
-                <a href="tel:4779099989">Telefono: 477-379-3600</a>
+                <a href="tel:4779099989">Telefono: 477-909-9989</a>
              </div>
              
              <div class="iconos">
@@ -573,8 +575,14 @@ body {
 window.sr = ScrollReveal();
 sr.reveal('.img-cv',{
     duration: 4000,
-    origin:'left'
+    origin:'left',
+    distance:'400px'
 });
+sr.reveal('.contenedor-informacion',{
+    duration:4000,
+    origin:'right',
+    distance:'400px'
+})
 </script>
 </body>
 </html>
